@@ -1,0 +1,31 @@
+:root {
+    --color-primary-black: #2D2424;
+    --color-primary-white: #FFFDF8;
+    --color-primary-blue: #7eb4d0;
+}
+
+$screen-largest: 1600px;
+$screen-large: 1400px;
+$screen-medium: 1200px;
+$screen-small: 1000px;
+$screen-smallest: 800px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    position: relative;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Gentium Plus', serif;
+    min-height: 100vh;
+}

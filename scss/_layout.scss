@@ -1,0 +1,14 @@
+.header{
+    background-color: var(--color-primary-black);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer {
+    min-height: 100vh;
+    background-color: var(--color-primary-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
